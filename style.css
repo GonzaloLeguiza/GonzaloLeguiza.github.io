@@ -1,0 +1,479 @@
+* {
+  margin: auto;
+}
+body {
+  background-image: url("./img/fondo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+.contenedor-principal {
+  max-width: 1400px;
+  color: rgb(7, 7, 7);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.nombre {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+nav {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.141);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+  margin: 1vh;
+  align-items: center;
+}
+nav ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 4px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+nav .container-set {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  color: #fffafa;
+}
+nav .container-set a:link {
+  text-decoration: none;
+  color: #060606;
+  
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 6rem;
+}
+
+.presentacion img {
+  height: 25rem;
+  width: 25rem;
+}
+.presentacion .section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.presentacion .section2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.presentacion .section2 .btn-contact a{
+  text-decoration: none;
+  color: white;
+}
+.presentacion .section2 .btn-contact {
+ background-color: #bababa9b;
+ margin-top: 20px;
+ border-radius: 25px;
+ font-size: 15px;
+ padding: 0.7rem 8rem;
+}
+.presentacion .section2 .btn-contact2 {
+ display: none;
+}
+.presentacion .section2 .btn-contact:hover {
+  background-color: rgba(49, 49, 49, 0.013);
+  color: white;
+  transition: 1.5s;
+}
+
+.about {
+  flex-wrap: wrap;
+}
+.about .sobremi img{
+  border-radius:50%;
+}
+.about .sobremi .mihistoria p{
+  font-size: 1.1rem;
+  line-height:1.6 ;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+
+
+h5 {
+  color: #fffafa;
+  text-align: center;
+}
+.sobremi {
+  display: flex;
+  color: #fffafa;
+  justify-content: center;
+  flex-direction: row;
+}
+.sobremi img {
+  height: 15rem;
+  width: 15rem;
+}
+.sobremi .mihistoria {
+  padding: 40px;
+  font-size: 1.2rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px;
+  flex-direction: row;
+}
+
+.skills h3 {
+  text-align: center;
+  color: #fffafa;
+}
+
+.skills img {
+  height: 4rem;
+  padding: 20px;
+  margin: 3px;
+  border-radius: 25px;
+}
+.skill1 img {
+  background-color: rgba(1, 151, 238, 0.105);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: 1s;
+}
+.skill1 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill3 img {
+  text-align: center;
+  background-color: rgba(82, 82, 83, 0.201);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill3 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill4 img {
+  background-color: rgba(1, 151, 238, 0.105);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill4 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill5 img {
+  text-align: center;
+  background-color: rgba(157, 0, 248, 0.164);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill5 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill6 img {
+  text-align: center;
+  background-color: rgba(255, 183, 0, 0.223);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill6 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill7 img {
+  text-align: center;
+  background-color: rgba(82, 82, 83, 0.201);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill7 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill8 img {
+  text-align: center;
+  background-color: rgba(67, 236, 0, 0.131);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill8 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill9 img {
+  text-align: center;
+  background-color: rgba(1, 151, 238, 0.105);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill9 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill10 img {
+  text-align: center;
+  background-color: rgba(1, 151, 238, 0.105);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill10 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.skill11 img {
+  background-color: rgba(255, 183, 0, 0.223);
+  overflow: hidden;
+  transition: 1s;
+}
+.skill11 img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.works {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.works .work button{
+  cursor: pointer;
+background-color: #efefef49;
+color: white;
+padding: 10px;
+margin: 20px;
+border-radius: 25px;
+}
+.works .work button:hover{
+  background-color:#0095ff49;
+  color: white;
+  transition: 2s;
+}
+
+.works .work button a{
+  text-decoration: none;
+  color: white;
+}
+
+.works .work {
+  
+  background-color: rgba(230, 230, 230, 0);
+  text-align: center;
+  transition: 1.5s ease;
+  transform: matrix(1, 1, 1, 0, 0);
+  color: #fffafa;
+  overflow: hidden;
+}
+.works .work:hover {
+  background-color: rgba(4, 4, 4, 0.275);
+  color: white;
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+  padding:20px 0px ;
+  border-radius: 25px;
+}
+.works .work img {
+  height: 12rem;
+  width: 20rem;
+  border-radius: 25px;
+}
+.works .work h3{
+margin-top: 10px;
+}
+.works .work p {
+  margin-top: 10px;
+  max-width: 350px;
+}
+
+.infoContacto {
+  background-color: rgba(230, 230, 230, 0);
+  border: 3px solid rgba(255, 255, 255, 0.043);
+  transition: 1.5s ease;
+  transform: matrix(1, 1, 1, 0, 0);
+  color: #fffafa;
+}
+.infoContacto:hover {
+  background-color: rgba(4, 4, 4, 0.275);
+  color: white;
+
+}
+.infoContacto h1 {
+  text-align: center;
+  padding: 20px;
+}
+.container-cajas {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-size: 1rem;
+}
+
+
+footer .infoContacto .container-cajas .caja p{
+  text-align: center;
+  margin-bottom: 15px;
+}
+footer .redes a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+footer .redes a:hover{
+  color:#0095ff49;
+  transition: 1s;
+}
+footer .container-cajas .btnCv{
+  padding: 8px 10px;
+  background-color: #efefef49;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+footer .container-cajas .btnCv:hover{
+  background-color:#0095ff49;
+  color: white;
+  transition: 2s;
+}
+
+@media (max-width: 440px) {
+  nav{
+ 
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li a p{
+    font-size: 0.7rem;
+    gap: 5px;
+  }
+
+  .presentacion{
+    margin: 0;
+    padding-top: 40px;
+  }
+  .presentacion .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 0.8rem;
+  }
+  
+  .presentacion .section2 .btn-contact{
+    display: none;
+  }
+  
+  
+  .presentacion .section1 img {
+  padding: 0;
+  margin: 0;
+   height: 18rem;
+   width: 18rem;
+  }
+ .about .sobremi .mihistoria{
+  font-size: 0.9rem;
+ }
+ .about h2{
+  display: none;
+ }
+
+
+.presentacion .section2 .btn-contact2 {
+  display:block;
+  padding: 8px;
+  width: 8rem;
+  margin-top: 20px;
+  background-color: #06060600;
+  border-radius: 25px;
+ }
+ .presentacion .section2 .btn-contact2:hover{
+  background-color: rgba(49, 49, 49, 0.013);
+  color: white;
+  transition: 1.5s;
+ }
+ .presentacion .section2 .btn-contact2 a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+}
+@media screen and (max-width: 980px) {
+  .presentacion .section2{
+    padding-top: 20px;
+  }
+ 
+  .nav-responsive{
+    display: block;
+ }
+  .presentacion {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .btn-contact {
+    width: 1em;
+  }
+  .about .img {
+    display: none;
+  }
+  .infoContacto{
+    margin: 0;
+    padding: 0;
+  }
+  .container-cajas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    gap: 40px;
+    font-size: 1rem;
+  }
+  .works{
+    display: flex;
+    flex-direction: column;
+  }
+}
